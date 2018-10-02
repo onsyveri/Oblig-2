@@ -1,0 +1,212 @@
+body {
+    width: 90%;
+    max-width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #282828;
+}
+
+/*Header*/
+
+.header-inner-wrapper {
+    display: grid;
+    grid-gap: 4px;
+    grid-template-columns: 1fr 4fr;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: -4px;
+}
+
+h1 {
+    width: 100%;
+    height: 100px;
+    min-width: 150px;;
+    color: white;
+    background-color: #282828; 
+    border: 4px solid #444444;
+    border-radius: 8px 0 0 0;
+    text-align: center;
+    line-height: 100px;
+    margin: 0px auto;
+}
+
+.bilde {
+    border: 4px solid #444444;
+    border-radius: 0 8px 0 0; 
+    width: 100%;
+    min-width: 150px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header-inner-wrapper img {
+    width: 100%;
+    max-width: 100%;
+    min-width: 400px;
+}
+
+.top-meny {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(160px, 1fr));
+    background-color: #ff0000;
+    width: 100%;
+    height: 100%;
+    min-width: 316px;
+    border: 4px solid #444444;
+    border-radius: 0 0 8px 8px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top-meny a {
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+}
+
+.top-meny a:hover {
+    font-weight: bold;
+}
+
+/*Hovedinnhold hjem side*/
+
+.hovedinnhold {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.artikkler {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.artikkler article {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #444444;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.artikkler article h3 {
+    font-size: 14px;
+    margin: 5px 5px 0 0;
+}
+
+.artikkler article p {
+    font-size: 12px;
+    margin: 5px 5px 20px 5px;
+}
+
+.artikkler article img {
+    width: 100px;
+    height: 70px;
+    margin: 5px;
+    border: 2px solid #444444;
+    border-radius: 5px;
+    float: left;
+}
+
+/*Sidekolonne*/
+
+.sidekolonne {
+    width: 100%;
+    min-width: 150px;
+    height: 100%;
+    border: 4px solid #444444;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.sidekolonne ul {
+    margin-left: -15px;
+    text-align: left;
+}
+
+.sidekolonne ul li {
+    margin-bottom: 10px;
+}
+
+.sidekolonne ul li a {
+    text-decoration: none;
+}
+
+.sidekolonne ul li a:hover {
+    color: aqua;
+}
+
+.sidekolonne iframe {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Knapper*/
+
+.knapp { 
+    text-align: center;
+    margin-top: 20px;
+}
+
+.knapp a {
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    border:2px solid #444444;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.knapp a:hover {
+    background-color: darkred;
+}
+
+/*Hovedinnhold artikkler*/
+
+.oppgave-svar {
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 4px solid #444444;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.floatBilde {
+    float: right;
+    width: 50%;
+}
+
+/*Footer*/
+
+footer {
+    grid-column: 1 / span 2;
+    width: 100%;
+    background-color: #ff0000;
+    border: 4px solid #444444;
+    border-radius: 8px 8px 0 0;
+    margin-top: 20px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+
